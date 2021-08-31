@@ -47,6 +47,7 @@ void setupPlugins()
     new RangeTestPlugin();
     // new StoreForwardPlugin();
     new EnvironmentalMeasurementPlugin();
+    new Data2send();
 #endif
 
     // NOTE! This plugin must be added LAST because it likes to check for replies from other plugins and avoid sending extra acks
